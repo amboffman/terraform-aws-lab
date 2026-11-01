@@ -1,0 +1,12 @@
+# Terraform working files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+
+# Local values that may contain your email or account details
+terraform.tfvars
+backend.hcl
+
+# Keep the provider lock file committed (.terraform.lock.hcl)
