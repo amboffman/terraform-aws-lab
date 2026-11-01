@@ -105,3 +105,7 @@ aws cloudfront create-invalidation --profile tf-lab \
 - Run `terraform plan` and read it before every apply. Knowing what will change is the core skill interviewers ask about.
 - Try `terraform state list` and `terraform show` after apply to see what Terraform tracks.
 - Break something on purpose: delete the bucket policy in the console, then run `terraform plan` and watch it detect drift.
+
+
+## Note
+API deployed, tested and torn down on Nov 1, 2026. CloudFront site pending AWS account verification.
