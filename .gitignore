@@ -10,3 +10,8 @@ terraform.tfvars
 backend.hcl
 
 # Keep the provider lock file committed (.terraform.lock.hcl)
+.build/
+.build/
+
+INTERVIEW-PREP.md
+PHASE2.md
